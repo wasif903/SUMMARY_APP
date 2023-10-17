@@ -1,0 +1,135 @@
+/* {<!-- Contact-us Area...... -->} */
+body a,span,h1,h2,h3,h4,h5{
+  font-family: 'Ubuntu', sans-serif !important;
+
+}
+body p{
+  font-family: 'Open Sans' !important;
+}
+.Contact_us_wrapper {
+  display: flex;
+}
+.contact_us_right {
+  background: red;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contact_us_container {
+  padding: 3rem 5rem 3rem 3rem !important;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 11;
+}
+.right_img {
+  position: absolute;
+  right: 0;
+  opacity: 0.5;
+  height: 100%;
+  fill: black;
+}
+.contact_us_container div h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+.contact_us_container div p {
+  font-size: 1.3rem;
+}
+.contact_us_fields {
+  display: flex;
+  gap: 1rem;
+}
+.gif_img {
+  width: 50vw;
+  object-fit: cover;
+  height: 44rem;
+}
+
+.contact_us_fields input {
+  padding: 0.8rem 1rem;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  outline: none;
+}
+.contact_us_fields input[type="text"] {
+  color: white;
+}
+.contact_us_fields input::placeholder {
+  color: white;
+}
+.contact_us_fields textarea {
+  padding: 0.8rem 1rem;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  outline: none;
+}
+.contact_us_fields textarea[type="text"] {
+  color: white;
+}
+.contact_us_fields textarea::placeholder {
+  color: white;
+}
+.contact_us_btn {
+  background: black;
+  border: none;
+  width: 10rem;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+}
+.Contact_select {
+  padding: 1rem;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: none;
+  width: 28rem;
+}
+
+.input2 {
+  width: 28rem;
+}
+
+select option {
+  padding: 1rem;
+  background: transparent !important;
+}
+@media screen and (max-width: 1210px) {
+  .Contact_us_wrapper {
+    flex-direction: column;
+  }
+  .gif_img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .contact_us_container {
+    padding: 3rem 0.5rem 3rem 0.5rem !important;
+  }
+  .gif_img {
+    height: 30rem;
+  }
+  .contact_us_container div h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact_us_container div p {
+    font-size: 0.8rem !important;
+  }
+  .contact_us_fields {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .Contact_select,
+  .input2 {
+    width: 100%;
+  }
+}

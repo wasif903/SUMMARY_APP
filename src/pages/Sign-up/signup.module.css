@@ -1,0 +1,148 @@
+body a,span,h1,h2,h3,h4,h5{
+  font-family: 'Ubuntu', sans-serif !important;
+
+}
+body p{
+  font-family: 'Open Sans' !important;
+}
+.red_box {
+  position: fixed;
+  width: 25rem;
+  height: 24rem;
+  border-radius: 50%;
+  background: red;
+  filter: blur(20px);
+  right: -26rem;
+  box-shadow: 1rem 0rem 31rem 3rem red;
+  bottom: 0;
+  z-index: 1;
+}
+.white_box {
+  position: fixed;
+  width: 25rem;
+  height: 24rem;
+  border-radius: 50%;
+  background: #32313a;
+  filter: blur(20px);
+  left: -26rem;
+  box-shadow: 1rem 0rem 31rem 3rem #32313a;
+  top: 0;
+  z-index: 1111;
+}
+.login_wrapper {
+  background-image: url("../../assets/login/black_bg.png");
+  height: 100vh;
+  width: 100%;
+}
+.login_container_wrapper {
+  /* background-image: url("../../assets/Login/login_bg.gif"); */
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  position: relative;
+}
+.login_fields_wrapper {
+  z-index: 10;
+}
+.login_fields_wrapper h1 {
+  color: white;
+  margin-left: 2.8rem;
+  margin-bottom: 1.4rem;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+.form_sign {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 1rem;
+  width: auto;
+  height: auto;
+}
+.form_sign h6 {
+  color: rgb(177, 171, 171);
+  font-weight: lighter;
+}
+.divtext {
+  height: 3rem;
+  width: 23rem;
+  margin-bottom: 1rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.textfiled {
+  background-color: transparent;
+  height: 3rem;
+  padding-left: 1.6rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  color: white;
+  border: none;
+  outline: none;
+}
+.btn_register {
+  background-color: transparent;
+  font-weight: 200;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 25px;
+  height: 2.7rem;
+  width: 8rem;
+  margin-top: 2rem;
+  transition: background-color 0.2s ease-in 100ms;
+}
+.btn_register:hover {
+  background-color: red;
+}
+.Login_back {
+  color: white;
+  position: absolute;
+  top: 4rem;
+  left: 6rem;
+}
+@media (max-width: 768px) {
+  .login_fields_wrapper h1 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .textfiled,
+  .divtext {
+    width: 18rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .login_fields_wrapper h1 {
+    font-size: 1.8rem;
+    margin-left: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .textfiled,
+  .divtext {
+    width: 15rem;
+    padding-left: 0.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login_bg {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Login_back {
+    color: white;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+  .logo {
+    width: 17rem;
+  }
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Orbitron&display=swap");
+
+@font-face {
+  font-family: "DS Digital";
+  src: url("./fonts/DS-DIGIT.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-bg: #14cf93;
+  --dot-font: "Raleway Dots", sans-serif;
+  --digital-font: "Orbitron", sans-serif;
+}
+
+@font-face {
+  font-family: "Astronaut";
+  src: url("./fonts/ASTRI___.TTF") format("truetype");
+  /* You might need to adjust the URL based on the location of your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ADLaMDisplay";
+  src: url("./fonts/ADLaMDisplay-Regular.ttf") format("truetype");
+  /* You might need to adjust the URL based on the location of your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#animated-text-container {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#animated-text-container h2 span {
+  opacity: 0;
+  animation: textAnimation 1s ease-in-out forwards;
+  display: inline-block;
+  font-weight: 500;
+}
+h3.spaci {
+  margin-top: 4%;
+}
+
+
+#animated-text-container h2 {
+  font-size: 3.2rem;
+}
+@media screen and (max-width: 990px) {
+  #animated-text-container h2 {
+    font-size: 5vmin;
+  }
+}
+@media screen and (max-width: 600px) {
+  #animated-text-container h2 {
+    font-size: 7vmin;
+  }
+}
+#animated-text-container h2 span:nth-child(1) {
+  animation-delay: 1s;
+}
+
+#animated-text-container h2 span:nth-child(2) {
+  animation-delay: 1.5s;
+}
+
+#animated-text-container h2 span:nth-child(3) {
+  animation-delay: 2s;
+}
+
+#animated-text-container h2 span:nth-child(4) {
+  animation-delay: 2.5s;
+}
+
+#animated-text-container h2 span:nth-child(5) {
+  animation-delay: 3s;
+}
+
+#animated-text-container h2 span:nth-child(6) {
+  animation-delay: 3.5s;
+}
+
+#animated-text-container h2 span:nth-child(7) {
+  animation-delay: 4s;
+}
+#animated-text-container h2 span:nth-child(8) {
+  animation-delay: 4.5s;
+}
+
+select option {
+  background: red !important;
+  color: white;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox  */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
