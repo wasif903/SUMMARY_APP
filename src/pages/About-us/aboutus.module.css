@@ -133,7 +133,7 @@ body p{
 }
 /* //////////////////////////////// */
 .team_wrapper {
-  background-image: url("../../assets/login/black_bg.png");
+  background-image: url("../../assets/Login/black_bg.png");
   height: auto;
   width: auto;
   display: flex;
