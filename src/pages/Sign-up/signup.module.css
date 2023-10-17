@@ -30,7 +30,7 @@ body p{
   z-index: 1111;
 }
 .login_wrapper {
-  background-image: url("../../assets/login/black_bg.png");
+  background-image: url("../../assets/Login/black_bg.png");
   height: 100vh;
   width: 100%;
 }
