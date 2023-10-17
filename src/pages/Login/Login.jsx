@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "./login.module.css";
 import { Container } from "react-bootstrap";
-import gif from "../../assets/Login/login_bg.gif";
+// import gif from "../../assets/Login/login_bg.gif";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
 import { FcGoogle } from "react-icons/fc";
@@ -54,7 +54,7 @@ const Login = () => {
       </h6>
       <Container className={style.login_container_wrapper}>
         <img
-          src={gif}
+          // src={gif}
           alt="no img found"
           style={{
             objectFit: "contain",

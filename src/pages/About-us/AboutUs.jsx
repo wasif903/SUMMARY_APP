@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 import Contact from "../../components/ContactUs/Contact";
 import { Container } from "react-bootstrap";
 import style from "./aboutus.module.css";
-import uppergif from "../../assets/login/login_bg.gif";
+// import uppergif from "../../assets/login/login_bg.gif";
 import team_img_one from "../../assets/main_gif.jpeg";
 import team_img_two from "../../assets/team/about_team_two.png";
 import main_gif from "../../assets/main_gif.gif";
@@ -26,7 +26,7 @@ const AboutUs = () => {
       <section className={style.mission_wrapper}>
         <Container className={style.mission_container}>
           <img
-            src={uppergif}
+            // src={uppergif}
             alt="no img found"
             style={{
               objectFit: "contain",
