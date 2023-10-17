@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "./signup.module.css";
 import { Container } from "react-bootstrap";
-import gif from "../../assets/login/login_bg.gif";
+import gif from "../../assets/Login/login_bg.gif";
 import { useNavigate } from "react-router-dom";
 import { useSign_upMutation } from "../../../redux/Auth/auth";
 import logo from "../../assets/logo.png";
