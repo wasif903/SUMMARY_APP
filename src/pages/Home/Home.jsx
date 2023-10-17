@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import style from "./home.module.css";
+import React, { useEffect, useState } from "react";
+import style from "./Home.module.css";
 import { Container } from "react-bootstrap";
 import img_one from "../../assets/slider/img_one.png";
 import img_two from "../../assets/slider/img_two.png";
